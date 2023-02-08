@@ -1,0 +1,170 @@
+/* global css */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.highlight-text{
+    color:orange;
+}
+.flex-container{
+display:flex;
+margin-bottom: 110px;
+flex-direction: row;
+}
+.half-width{
+    width:50%;
+    padding-left: 2%;  
+}
+.text{
+    text-align: justify;
+}
+/* global css end */
+
+/* stay focused part */
+#introduction{
+    margin-left: 5%;
+    }
+.side-border{
+    border-left: 3px solid tomato;
+    height:2.9em;
+    padding-left: 7px;   
+}
+.intro-image{
+    width:80%;
+    margin-top: 50px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(to right,orange,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+}
+.large-text{
+     width: 80%;
+}
+/* stay focused part end*/
+
+/* My mission in 2022 */
+.steps img{
+    width:50%;
+    margin-top: 15px;
+}
+.steps{
+    width:25%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+#first{
+    background-color: paleturquoise;
+    margin-left: 6%;
+}
+#second{
+    background-color: mistyrose;
+}
+#third{
+    background-color: moccasin;
+    margin-right: 5%;
+}
+.text-center{
+    text-align: center;
+}
+/* My mission in 2022 end*/
+
+/* develop without limits and know community*/
+.coding{
+    width:70%;
+    margin-top: 50px;
+    margin-left: 8%;
+}
+.right-text{
+    margin-left: -5%;
+    margin-top: 70px;
+}
+/* develop without limits end */
+
+ /*knowing global community */
+.project{
+    width:80%;
+    margin-top: 50px;
+    margin-left: -5%;
+}
+.left-text{
+    margin-left: 5%;
+    margin-top: 70px;
+}
+ /*knowing global community end */
+
+/* about me */
+.horizontal{
+     display: flex;
+     flex-direction: column;
+}
+.hr{
+    height:1px;
+    width:70%;
+    margin-top: -40px;
+    background-color: tomato;
+}
+.mail{
+    text-decoration: none;
+    color: tomato;
+}
+.linkedin,.whatsapp,.github{
+    text-decoration: none;
+    color: darkblue;
+    line-height:normal;
+}
+.about-me{
+    background-color:bisque;
+    width:90%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+#about-me{
+    display: flex;
+    flex-direction: row;
+}
+#about-me > .flex-row{
+    flex:auto;
+}
+.about-me-left{
+    margin-left: 5%;
+}
+.about-me > .top-text{
+    padding-top: 20px;
+}
+/* about me end */
+
+/* footer part start */
+#footer{
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.footer-text{
+    font-family: 'Roboto', sans-serif;
+}
+/* footer part end */
